@@ -25,3 +25,5 @@ client.on('message', commandHandler);
 client.on('ready',()=>{
     client.user.setActivity("!help",{type: "PLAYING"})
 })
+
+.listen(process.env.PORT || 5000)
