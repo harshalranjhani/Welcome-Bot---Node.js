@@ -16,7 +16,7 @@ client.login(process.env.BOT_TOKEN);
 client.on('ready', readyDiscord);
 
 function readyDiscord() {
-    console.log(':heart')
+    console.log('discord is connected!')
 }
 
 
